@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity"
-    android:orientation="vertical">
-    
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@color/colorPrimaryDark">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +24,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_launcher_background" />
+                android:src="@drawable/user_profile_pic" />
 
             <TextView
                 android:id="@+id/userNameTextView"
@@ -42,16 +43,6 @@
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/payment_methodImageView"
-            android:src="@drawable/ic_launcher_background" />
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/profileImageView"
-            android:src="@drawable/ic_launcher_background"
-           />
+
     </RelativeLayout>
 </LinearLayout>
